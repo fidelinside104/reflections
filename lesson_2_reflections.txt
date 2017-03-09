@@ -1,3 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 The git version control initialized in the repo: a .git folder appears, and changes will be tracked from now on. This is necessary as before initializing a repository, the fiels weren't tracked in that folder.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area acts as an intermediate before commiting a change. It makes it easier to "build up" our commit properly, plus it adds an extra layer of security if added some unwanted files.

@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+The git version control initialized in the repo: a .git folder appears, and changes will be tracked from now on. This is necessary as before initializing a repository, the fiels weren't tracked in that folder.
+

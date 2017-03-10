@@ -3,3 +3,6 @@ The git version control initialized in the repo: a .git folder appears, and chan
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area acts as an intermediate before commiting a change. It makes it easier to "build up" our commit properly, plus it adds an extra layer of security if added some unwanted files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can check what I am about to change before I actually commit. git diff --staged will show me the difference between the staged version and the committed one.

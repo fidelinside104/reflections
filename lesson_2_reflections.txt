@@ -9,3 +9,6 @@ I can check what I am about to change before I actually commit. git diff --stage
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Let's sat that more than one people are working on the same code, and they don't want to interrupt each other. Or, you'd like to add experimental features apart from the main version, which may or may not be merged later.
+
+How do the diagrams help you visualize the branch structure?
+It shows how the branches are related to each other. We will know what happened on each branch, and when did they brached off or merged back to each other.

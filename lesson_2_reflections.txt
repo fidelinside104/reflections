@@ -12,3 +12,6 @@ Let's sat that more than one people are working on the same code, and they don't
 
 How do the diagrams help you visualize the branch structure?
 It shows how the branches are related to each other. We will know what happened on each branch, and when did they brached off or merged back to each other.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+As a result of branching, the code of the different branches are compared and combined together. The diagram is a good representation as it visualizes the sequential nature of commits.

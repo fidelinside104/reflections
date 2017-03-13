@@ -9,3 +9,6 @@ Branches exist inside one specific repository, as labels pointing to different c
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 We can aim to synchronize with that state locally before pushing changes back to origin.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git (or any other VC system), I think I'd try to fall back to Google Drive, without autosync. One think would be easier: the workflow itself for "uploading the code" is much leaner. There are a lot of downsides, however: it's less failproof, versioning by folders is really cumbersome, there is no built-in assistance for merge request code reviews.

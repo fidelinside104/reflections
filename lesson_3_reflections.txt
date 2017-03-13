@@ -3,3 +3,6 @@ When there are multiple collaborators on the project, or I may use more than one
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 First of all maybe I  just don't need to update a repository everytime something changed, just when I want to use locally. Second, pulling automatically might modify the structure of my local repo in a way that is undesirable for me.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Branches exist inside one specific repository, as labels pointing to different commits. Clones are copied versions of a repository: you can either clone your local repository to another local one, or clone your remote to a local. Forks are for creating a new remote repository by copying the contents of an existing (usually somebody else's) repository. Github will store the reference, but changes in your fork won't affect the original repository.

@@ -12,3 +12,6 @@ We can aim to synchronize with that state locally before pushing changes back to
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without Git (or any other VC system), I think I'd try to fall back to Google Drive, without autosync. One think would be easier: the workflow itself for "uploading the code" is much leaner. There are a lot of downsides, however: it's less failproof, versioning by folders is really cumbersome, there is no built-in assistance for merge request code reviews.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Either when I have to collaborate with others, or when I want to test-drive some experimental changes first. Making changes directly to master undeniably makes the workflow much simpler, although it's a much less refined (and failproof) waz of working together or trying out new things.
